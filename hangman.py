@@ -51,7 +51,6 @@ class Hangman:
         self.blanks = "".join(temp)
 
     def play(self):
-        print(self.word)
         print("Welcome To Hangman")
         print("Let's Play!")
         print(self.display_hangman())
